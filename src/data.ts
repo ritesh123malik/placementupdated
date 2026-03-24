@@ -108,4 +108,70 @@ export const companies: Company[] = [
   { sno: 93, date: "05 Aug 25", company: "Signzy (MERN)", branches: ["CSE","ECE","CCE","Mech"], type: "SLI + PPO", cgpa: "6.5+", ctc: null, fixed: null, stipend: 40000, placed: 0, status: "Pending" }
 ];
 
+export interface ChangelogEntry {
+  date: string;
+  company: string;
+  type: 'NEW' | 'UPDATE' | 'BLACKLIST';
+  description: string;
+  ctc?: string;
+  students?: string;
+  status?: string;
+}
+
+export const changelog: ChangelogEntry[] = [
+  {
+    date: "Dec 16, 2024",
+    company: "Flexport",
+    type: "NEW",
+    description: "Company added to placement drive",
+    ctc: "63 LPA",
+    students: "0 → 2",
+    status: "COMPLETED"
+  },
+  {
+    date: "Dec 16, 2024",
+    company: "GoDaddy",
+    type: "NEW",
+    description: "Company added to placement drive",
+    ctc: "46 LPA",
+    students: "0 → 2",
+    status: "COMPLETED"
+  },
+  {
+    date: "Dec 16, 2024",
+    company: "Shodh AI",
+    type: "UPDATE",
+    description: "CTC update: 12 LPA → 15 LPA",
+    status: "COMPLETED"
+  },
+  {
+    date: "Dec 16, 2024",
+    company: "Media.net SRE",
+    type: "UPDATE",
+    description: "CTC update: 15.7 LPA → 14.5 LPA",
+    status: "COMPLETED"
+  },
+  {
+    date: "Dec 16, 2024",
+    company: "Samsung Delhi",
+    type: "UPDATE",
+    description: "Students selected: 8 → 9",
+    status: "COMPLETED"
+  },
+  {
+    date: "Dec 16, 2024",
+    company: "Blogvault",
+    type: "BLACKLIST",
+    description: "Company blacklisted us"
+  },
+  {
+    date: "Dec 16, 2024",
+    company: "DELOITTE",
+    type: "UPDATE",
+    description: "Students selected: 18 → 16",
+    status: "COMPLETED"
+  }
+];
+
 export const offCampus = ["Google","Microsoft","Myntra","Amazon","Dell","Agoda","Gokwik","Allen","Other (19)"];
+

@@ -9,6 +9,7 @@ import { CompanyTable } from './components/CompanyTable';
 import { Analysis } from './components/Analysis';
 import { Timeline } from './components/Timeline';
 import { OffCampus } from './components/OffCampus';
+import { Changelog } from './components/Changelog';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('companies');
@@ -87,6 +88,7 @@ const App: React.FC = () => {
               {activeTab === 'analysis' && <Analysis companies={companies} />}
               {activeTab === 'timeline' && <Timeline companies={companies} />}
               {activeTab === 'offcampus' && <OffCampus />}
+              {activeTab === 'changelog' && <Changelog />}
             </motion.div>
           </AnimatePresence>
         </div>

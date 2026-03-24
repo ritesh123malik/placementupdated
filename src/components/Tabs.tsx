@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-export type TabType = 'companies' | 'analysis' | 'timeline' | 'offcampus';
+export type TabType = 'companies' | 'analysis' | 'timeline' | 'offcampus' | 'changelog';
 
 interface TabsProps {
   activeTab: TabType;
@@ -10,10 +10,11 @@ interface TabsProps {
 
 export const Tabs: React.FC<TabsProps> = ({ activeTab, setActiveTab }) => {
   const tabs: { id: TabType; label: string; icon: string }[] = [
-    { id: 'companies', label: 'Companies', icon: '📋' },
+    { id: 'companies', label: 'Companies', icon: '📁' },
     { id: 'analysis', label: 'Analysis', icon: '📊' },
     { id: 'timeline', label: 'Timeline', icon: '📅' },
     { id: 'offcampus', label: 'Off-Campus', icon: '🌐' },
+    { id: 'changelog', label: 'Changelog', icon: '📋' },
   ];
 
   return (
