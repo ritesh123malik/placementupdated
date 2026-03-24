@@ -1,7 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-export const Hero: React.FC = () => {
+interface HeroProps {
+  totalCompanies: number;
+  totalPlaced: number;
+}
+
+export const Hero: React.FC<HeroProps> = ({ totalCompanies, totalPlaced }) => {
   return (
     <section className="py-12 md:py-20">
       <motion.h1
@@ -20,7 +25,7 @@ export const Hero: React.FC = () => {
         transition={{ delay: 0.3, duration: 0.6 }}
         className="font-mono text-sm text-text3 tracking-wider uppercase"
       >
-        LNMIIT_JAIPUR // BATCH_2026 // 46 COMPANIES // 136 STUDENTS PLACED
+        LNMIIT_JAIPUR // BATCH_2026 // {totalCompanies} COMPANIES // {totalPlaced} STUDENTS PLACED
       </motion.div>
     </section>
   );

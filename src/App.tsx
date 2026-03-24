@@ -71,7 +71,7 @@ const App: React.FC = () => {
 
       {/* Main Content */}
       <main className="container">
-        <Hero />
+        <Hero totalCompanies={stats.totalCompanies} totalPlaced={stats.totalPlaced} />
         <StatsGrid stats={stats} />
         <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
 
