@@ -151,16 +151,16 @@ export const companies: Company[] = [
   { sno: 136, date: "N/A", company: "GoDaddy", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 4, status: "Completed" },
   { sno: 137, date: "N/A", company: "Matiks Mental Arithmetic Pvt. Ltd.", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
 
-  { sno: 139, date: "N/A", company: "Fenix Commerce", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
-  { sno: 140, date: "N/A", company: "DB Labs", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
-  { sno: 141, date: "N/A", company: "Bundl", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
-  { sno: 142, date: "N/A", company: "SaturnIQ Intelligent Solutions Pvt Ltd", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
-  { sno: 143, date: "N/A", company: "Ather Energy", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
+  { sno: 138, date: "N/A", company: "Fenix Commerce", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
+  { sno: 139, date: "N/A", company: "DB Labs", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
+  { sno: 140, date: "N/A", company: "Bundl", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
+  { sno: 141, date: "N/A", company: "SaturnIQ Intelligent Solutions Pvt Ltd", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
+  { sno: 142, date: "N/A", company: "Ather Energy", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
 
-  { sno: 145, date: "N/A", company: "Filmverse Media (Entrepreneurship)", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
-  { sno: 146, date: "N/A", company: "E2E Networks Ltd", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 5, status: "Completed" },
-  { sno: 147, date: "N/A", company: "Goyal Gums Pvt. Ltd.", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
-  { sno: 148, date: "N/A", company: "Coffer Internet Services (Powerplay)", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
+  { sno: 143, date: "N/A", company: "Filmverse Media (Entrepreneurship)", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
+  { sno: 144, date: "N/A", company: "E2E Networks Ltd", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 5, status: "Completed" },
+  { sno: 145, date: "N/A", company: "Goyal Gums Pvt. Ltd.", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
+  { sno: 146, date: "N/A", company: "Coffer Internet Services (Powerplay)", branches: ["Open"], type: "SLI+FTE", cgpa: "N/A", ctc: null, fixed: null, stipend: null, placed: 1, status: "Completed" },
 ];
 
 export interface ChangelogEntry {
