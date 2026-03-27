@@ -149,7 +149,7 @@ export const CompanyTable: React.FC<CompanyTableProps> = ({ companies }) => {
             </thead>
             <tbody>
               <AnimatePresence mode="popLayout">
-                {filteredAndSorted.map((c) => (
+                {filteredAndSorted.map((c, index) => (
                   <motion.tr
                     layout
                     initial={{ opacity: 0 }}
@@ -158,7 +158,7 @@ export const CompanyTable: React.FC<CompanyTableProps> = ({ companies }) => {
                     key={c.sno}
                     className="group border-b border-border last:border-0 hover:bg-bg3/30 transition-colors"
                   >
-                    <td className="p-4 text-xs font-mono text-text3">{c.sno}</td>
+                    <td className="p-4 text-xs font-mono text-text3">{index + 1}</td>
                     <td className="p-4 td-company">
                       <div className="font-bold text-text group-hover:text-accent transition-colors leading-tight">
                         {c.company}
