@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import { companies } from './data';
 import { ThemeToggle } from './components/ThemeToggle';
 import { Hero } from './components/Hero';
@@ -51,6 +52,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen">
+      <Analytics />
       {/* Header */}
       <header className="glass sticky top-0 z-50 py-3 border-b border-border">
         <div className="container flex items-center justify-between">
