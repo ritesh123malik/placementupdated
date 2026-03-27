@@ -97,7 +97,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="py-12 border-t border-border mt-20 opacity-40">
         <div className="container flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-mono uppercase tracking-widest">
-          <div>© 2026 LNMIIT Placement Cell</div>
+          <div></div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-accent transition-colors">Privacy</a>
             <a href="#" className="hover:text-accent transition-colors">Terms</a>
